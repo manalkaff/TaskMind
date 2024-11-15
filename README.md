@@ -1,38 +1,36 @@
-# create-svelte
+# 📌 TaskMind - Visual Task Management with Interactive Diagrams
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+**TaskMind** is not just another to-do app; it's a visual approach to task management! Each task is represented as a shape, allowing you to interact directly with tasks by clicking on shapes to update their status. As someone who loves to see projects in a visual structure, I built this app for personal use, and I’m sharing it for others who might find it useful. Give it a try!  
 
-## Creating a project
+🌐 **Live Demo**: [TaskMind](https://taskmind.click)
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## 💻 Self-Hosting
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Want to run TaskMind on your own server? Here’s how:
 
-## Developing
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Start the development server with `npm run dev`
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+---
 
-```bash
-npm run dev
+## 🤝 Contributing
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+I'm open to collaboration! Feel free to send a pull request to enhance TaskMind. Together, we can make this project even better!
 
-## Building
+---
 
-To create a production version of your app:
+## 🛣️ Roadmap
 
-```bash
-npm run build
-```
+Some exciting features planned for future releases:
 
-You can preview the production build with `npm run preview`.
+- ➕ **Quick Shape Addition**: Use a floating input at the top for easy task creation
+- 💬 **AI Chat Integration**: Get AI-powered task insights and suggestions
+- 📂 **Task Grouping**: Organize tasks by groups for better visual structure
+- 🚀 **More features to come** – stay tuned!
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+---
+
+Thank you for checking out TaskMind! 🧑‍💻
