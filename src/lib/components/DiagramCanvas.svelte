@@ -107,7 +107,7 @@
     const endX = startX + (canvas.width / zoom) + GRID_SIZE;
     const endY = startY + (canvas.height / zoom) + GRID_SIZE;
 
-    ctx.fillStyle = isDarkMode ? "#374151" : GRID_COLOR;
+    ctx.fillStyle = !isDarkMode ? "#374151" : GRID_COLOR;
     for (let x = startX; x < endX; x += GRID_SIZE) {
       for (let y = startY; y < endY; y += GRID_SIZE) {
         const screenX = (x - viewportOffset.x) * zoom;
