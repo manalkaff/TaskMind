@@ -3,6 +3,8 @@
   
 </script>
 
-
+<svelte:head>
+  <title>TaskMind</title>
+</svelte:head>
 
 <DiagramCanvas />
