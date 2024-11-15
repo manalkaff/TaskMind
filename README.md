@@ -4,6 +4,8 @@
 
 🌐 **Live Demo**: [TaskMind](https://taskmind.click)
 
+![banner](https://github.com/user-attachments/assets/6a4588b9-945e-479a-9655-e33575cb8834)
+
 ---
 
 ## 💻 Self-Hosting
